@@ -81,12 +81,12 @@
               </div>
               <div class="form-group">
                     <div align='left'><label text>Telephone :</label></div>
-                <input type="text" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
+                <input type="tel" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
                 
               </div>
               <div class="form-group">
                 <div align='left'><label text>email :</label></div>
-                <input type="text" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
+                <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
                 
               </div>
               <div class="form-group">
