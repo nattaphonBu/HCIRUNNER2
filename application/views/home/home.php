@@ -123,13 +123,13 @@
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading"><a href="single.html">SONGKRAN CHIANGMAI NIGHT RUN 2019 สงกรานต์เชียงใหม่ ไนท์รัน(ครั้งที่ 5) </a></h3>
+                <p>"เฉพาะนักวิ่งที่มีไฟวิ่งในราตรีที่มืดมิดบนถนนที่มีตำนานของชาวล้านนา​"</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary">Join </a></p>
-                        <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                        <p><a href="#" class="btn btn-secondary2">UnJoin </a></p>
+                        <p class="mb-000"><a href="#" class="btn btn-secondary">Read More<span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
-                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 3</a>	
+                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"><a href="#" class="meta-chat">45</a>	
                         </p>
                 </div>
               </div>
@@ -154,13 +154,13 @@
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading"><a href="single.html">Championjam @แม่กำปองเทรล2019 #รับประกันเส้นทางต้องลุกเป็นไฟ</a></h3>
+                <p>🍃💨ขาแกร่งเตรียมตัวให้ดี!! สำหรับงาน แม่กำปองเทรล2019  🔥</p>
                 <div class="d-flex align-items-center mt-4 meta">
                         <p><a href="#" class="btn btn-secondary">Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
-                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 3</a>	
+                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 342</a>	
                         </p>
                 </div>
               </div>
@@ -169,7 +169,7 @@
 
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-                <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
+                <span class="status2"> &nbsp;ปิดรับสมัคร  &nbsp;</span>
               <a href="single.html" class="block-20" style="background-image: url('images/ph4.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
@@ -186,13 +186,13 @@
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading"><a href="single.html">Singha CNX KOM Chiangmai Up Hill Run</a></h3>
+                <p>สนามที่สามของสิงห์ซีรี่ส์ รัน 2019 พาเพื่อนมาวิ่งยามเช้ารับบรรยากาศเส้นทางธรรมชาติ </p>
                 <div class="d-flex align-items-center mt-4 meta">
                         <p><a href="#" class="btn btn-secondary">Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
-                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 3</a>	
+                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 839</a>	
                         </p>
                 </div>
               </div>
@@ -217,13 +217,13 @@
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading"><a href="single.html">SUPERSPORTS 10 MILE 2019 INTERNATIONAL RUN</a></h3>
+                <p>ซูเปอร์สปอร์ต ร้านค้าอุปกรณ์กีฬาอันดับ 1 ของประเทศไทยvอย่าลืมมาเข้าร้วมกันน่ะ!</p>
                 <div class="d-flex align-items-center mt-4 meta">
                         <p><a href="#" class="btn btn-secondary">Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
-                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 3</a>	
+                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 323</a>	
                         </p>
                 </div>
               </div>
@@ -231,7 +231,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-                <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
+                <span class="status2"> &nbsp;ปิดรับสมัคร  &nbsp;</span>
               <a href="single.html" class="block-20" style="background-image: url('images/ph6-1.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
@@ -248,13 +248,13 @@
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading"><a href="single.html">Healthy Lifestyle Run 2019 by Dutch Mill</a></h3>
+                <p>งานเดิน-วิ่งการกุศล สร้างเสริมสุขภาพดี Healthy Lifestyle Run 2019 by Dutch Mill</p>
                 <div class="d-flex align-items-center mt-4 meta">
                         <p><a href="#" class="btn btn-secondary">Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
-                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 3</a>	
+                        <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 764</a>	
                         </p>
                 </div>
               </div>
@@ -273,59 +273,11 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Square</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Architectural Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Interior Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Exterior Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lighting Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+           
+          <a href="https://web.facebook.com/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B9%8C-274248215956704/">
+            <p class="center"><img src="https://img.icons8.com/color/48/000000/facebook.png"> : วิศวกรรมซอฟต์แวร์ ม.วลัยลักษณ์</a></p>
+            <p class="center">©Copyright 2019 Group1.SWE60-242&SWE-342 All Rights Reserved 0.1234</p>
+            <p class="center">!-------------------------------------------------------------------------------------!</p>
           </div>
         </div>
       </div>

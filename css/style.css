@@ -8321,8 +8321,12 @@ h1, h2, h3, h4, h5,
         color: #fff; }
   .btn.btn-secondary {
     background: #fdb82c !important;
-    border: 1px solid #fdb82c !important;
+    border: 1px solid #eeb140ca !important;
     color: #fff !important; }
+    .btn.btn-secondary2 {
+      background: #f00e2c !important;
+      border: 1px solid #b82e2e !important;
+      color: #fff !important; }
     .btn.btn-secondary:hover {
       border: 1px solid #fdb82c !important;
       background: transparent !important;
@@ -9224,16 +9228,29 @@ textarea.form-control {
     color: #ffffff;
     line-height: 1;
      }
+     .center {
+      text-align: center;
+       }
     .blog-entry span.status {
       margin-left:61.5mm;
       font-size: 20px;
       font-weight: 400;
-      color: rgb(42, 201, 95);
+      color: rgb(10, 161, 61);
       stroke-width: 2cm;
       line-height: 1.4;
-      text-shadow: rgb(42, 201, 95) 0.1em 0.1em 0.2em;
+      text-shadow: rgb(170, 190, 177) 0.1em 0.1em 0.1em;
       border: 2px solid ;
       border-radius: 12px;}
+      .blog-entry span.status2 {
+        margin-left:61.5mm;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(247, 8, 0);
+        stroke-width: 2cm;
+        line-height: 1.4;
+        text-shadow: rgb(177, 157, 157) 0.1em 0.1em 0.1em;
+        border: 2px solid ;
+        border-radius: 12px;}
       .blog-entry span.em {
         margin-left:20mm;
         font-size: 20px;
