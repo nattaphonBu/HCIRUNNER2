@@ -72,6 +72,7 @@
             <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
           </div>
         </div>
+        <form id="active">
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
@@ -95,7 +96,7 @@
                 <h3 class="heading"><a href="single.html">PRC : Next Step Run 2019 Mini marathon</a></h3>
                 <p>งานวิ่งประเพณี ส.น.ป. มินิมาราทอน 6.00 น. ณ ลานหน้าโบสถ์ โรงเรียนปรินส์รอยแยลส์วิทยาลัย</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                    <p><a href="#" class="btn btn-secondary">Join </a></p>
+                    <p><button class="btn btn-secondary" onClick="myFunction()">Join </button></p>
                     <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 	                <p class="mb-0000">
                     <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 132</a>	
@@ -104,6 +105,7 @@
               </div>
             </div>
           </div>
+          </form>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
@@ -126,7 +128,8 @@
                 <h3 class="heading"><a href="single.html">SONGKRAN CHIANGMAI NIGHT RUN 2019 สงกรานต์เชียงใหม่ ไนท์รัน(ครั้งที่ 5) </a></h3>
                 <p>"เฉพาะนักวิ่งที่มีไฟวิ่งในราตรีที่มืดมิดบนถนนที่มีตำนานของชาวล้านนา​"</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary2">UnJoin </a></p>
+                        <!-- <p><a href="#" class="btn btn-secondary2">UnJoin </a></p> -->
+                        <p><button class="btn btn-secondary2" onClick="myFunction1()">UnJoin </button></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More<span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"><a href="#" class="meta-chat">45</a>	
@@ -189,7 +192,7 @@
                 <h3 class="heading"><a href="single.html">Singha CNX KOM Chiangmai Up Hill Run</a></h3>
                 <p>สนามที่สามของสิงห์ซีรี่ส์ รัน 2019 พาเพื่อนมาวิ่งยามเช้ารับบรรยากาศเส้นทางธรรมชาติ </p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary">Join </a></p>
+                        <p><a href="#" class="btn btn-secondary disabled" >Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 839</a>	
@@ -251,7 +254,7 @@
                 <h3 class="heading"><a href="single.html">Healthy Lifestyle Run 2019 by Dutch Mill</a></h3>
                 <p>งานเดิน-วิ่งการกุศล สร้างเสริมสุขภาพดี Healthy Lifestyle Run 2019 by Dutch Mill</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary">Join </a></p>
+                        <p><a href="#" class="btn btn-secondary disabled">Join </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 764</a>	
@@ -360,6 +363,25 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Confirm to Join!! ")) {
+        alert("Join Complete");
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
+  function myFunction1() {
+        var txt;
+        if (confirm("Are you sure to unjoin?")) {
+          alert("UnJoin Complete");
+        } else {
+          txt = "You pressed Cancel!";
+        }
+        // document.getElementById("demo").innerHTML = txt;
+  }
+</script>
   </body>
 </html>
