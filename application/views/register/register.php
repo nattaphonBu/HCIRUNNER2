@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Square - Free Bootstrap 4 Template by Colorlib</title>
+    <title>RUN MY WAY REGISTER</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -81,7 +81,7 @@
               </div>
               <div class="form-group">
                     <div align='left'><label text>Telephone :</label></div>
-                <input type="tel" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
+                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
                 
               </div>
               <div class="form-group">
@@ -102,7 +102,7 @@
               
               <div class="form-group">
                 
-                <button type="insert"  class="btn btn-secondary py-3 px-5">OK</button>
+                <button type="insert"  class="btn btn-secondary py-3 px-5">Register</button>
               </div>
             </form>
           
