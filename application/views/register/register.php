@@ -102,7 +102,7 @@
               
               <div class="form-group">
                 
-                <button type="insert"  class="btn btn-secondary py-3 px-5">Register</button>
+                <button type="insert"  class="btn btn-secondary py-3 px-5">Sing up</button>
               </div>
             </form>
           
