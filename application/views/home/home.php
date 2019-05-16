@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+   <style>
+  
+   }
+   </style>
   <body>
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -33,12 +37,12 @@
       
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="nav-link" data-nav-section="home"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-info " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp;
 	        </ul>
         </div>
         <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="nav-link"><span>Sign up</span></a></li>
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="nav-link"><span>Sign in</span></a></li>&nbsp;&nbsp;
+            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-info "><span>Sign up</span></a></li>
+            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-info "><span>Sign in</span></a></li>&nbsp;&nbsp;
       </ul>
 	    </div>
 	  </nav>

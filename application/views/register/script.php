@@ -65,7 +65,7 @@ $("#insert").validate({
                         alert("Register Has Complete Wellcome   "+name.name)
                         window.location.replace( href="<?=base_url("welcome") ?>");
                     }else{
-                        alert("Password not match!!")
+                        alert("Password not match  Please Try again!!")
                     }
                 }
                     
