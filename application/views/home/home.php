@@ -37,7 +37,7 @@
       
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-success " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp;
+	          <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-primary " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp;
 	        </ul>
         </div>
         <ul class="navbar-nav nav ml-auto">
