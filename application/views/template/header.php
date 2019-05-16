@@ -13,8 +13,8 @@
 	        </ul>
         </div>
         <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-primary "><span>Sign up</span></a></li>
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-outline-secondary my-2 my-sm-0"><span>Sign in</span></a></li>&nbsp;&nbsp;
+            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-outline-primary my-10 my-sm-1 "><span>Sign up</span></a></li>
+            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-outline-primary my-10 my-md-1"><span>Sign in</span></a></li>&nbsp;&nbsp;
       </ul>
 	    </div>
 	  </nav>
@@ -35,3 +35,4 @@
           </div>
         </div>
       </div>
+      </section>
