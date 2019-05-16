@@ -8,10 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-
+    <style>
+        p.error1{
+          font-size: 52px;
+          display: block;
+          margin-bottom: 5px;
+          text-transform: uppercase;
+          color: #2e9e5b;
+          letter-spacing: 2px;
+        }
+        label.error{
+          color: red !important;
+        }
+        
+    </style>
   </head>
   <body>
-  <section class="ftco-section contact-section ftco-no-pb" >
+    
+ 
   
 <!-- <form>
 <div class="container">
@@ -107,38 +121,46 @@
         <center>
         <p class="error1">Create Activity</p>
         <!-- <p>Join with us </p> -->
-          <div class="col-sm-10 order-md-last d-flex">
+          <div class="col-sm-12 order-md-last d-flex">
               
             <form id="insert" class="bg-light p-4 contact-form">
             <div class="form-group">
             <div align='left'><label text>ชื่อกิจกรรม :</label></div>
             <input class="form-control" type="text" placeholder="ชื่อกิจกรรม">
-          </div>S
-              <div class="form-group">
-                    <div align='left'><label text>Fullname :</label></div>
-                <input type="text" class="form-control" placeholder="ex.Burin panchat" id="name" name="name" > 
-                
-              </div>
-              <div class="form-group">
-                    <div align='left'><label text>Telephone :</label></div>
-                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
-                
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>email :</label></div>
-                <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
-                
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>password :</label></div>
-                <input type="password" class="form-control" placeholder="password" id="password" name="password" >
-                
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>re password :</label></div>
-                <input type="password" class="form-control" placeholder="re password" id="repassword" name="repassword"  >
-               
-              </div>
+          </div>
+          <div class="container">
+            <table id="myTable" class=" table order-list">
+            <thead>
+                <tr>
+                    <td>กำหนดการ</td>
+                    <td>เวลา</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-sm-8">
+                            <input type="detail" name="detail"  class="form-control"/>
+                    </td>
+                    <td class="col-sm-2">
+                        <input type="time" name="time" class="form-control" />
+                    </td>
+                    <td class="col-sm-2"><a class="deleteRow"></a>
+                    </td>
+                    <td colspan="5" style="text-align: left;">
+                        <input type="button" class="btn btn-lg btn-block"  id="addrow" value="Add Row" />
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                   
+                </tr>
+                <tr>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+        </div>
               
               <div class="form-group">
                 
