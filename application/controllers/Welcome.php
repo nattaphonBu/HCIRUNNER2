@@ -29,6 +29,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/head');
 		$this->load->view('template/footer');
 	}
+	public function detail()
+	{
+		// $this->load->view('home/home');
+		$this->load->view('template/head');
+		$this->load->view('template/header');
+		$this->load->view('detail/detail');
+		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+	}
 	public function example()
 	{
 		// $this->load->view('home/home');
@@ -37,4 +46,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
 	}
+
 }
