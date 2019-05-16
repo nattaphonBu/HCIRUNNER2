@@ -34,7 +34,7 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
                         <!-- <li class="nav-item"><a href="home.html" class="nav-link" data-nav-section="blog"><span>Home</span></a></li> -->
-                        <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="nav-link1"><span>Sign in</span></a></li>&nbsp;&nbsp;
+                        <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="nav-link1"><span>Sign in</span></a></li>&nbsp;&nbsp;
                   </ul>
 
 	        </ul>
@@ -69,40 +69,24 @@
         
        
         <center>
-        <p class="error1">Sign Up</p>
+        <p class="error1">Login</p>
         <p>Join with us </p>
           <div class="col-sm-4 order-md-last d-flex">
               
             <form id="insert" class="bg-light p-4 contact-form">
               <div class="form-group">
                     <div align='left'><label text>Fullname :</label></div>
-                <input type="text" class="form-control" placeholder="ex.Burin panchat" id="name" name="name" > 
+                <input type="text" class="form-control" placeholder="" id="name" name="name" > 
                 
               </div>
               <div class="form-group">
-                    <div align='left'><label text>Telephone :</label></div>
-                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
+                    <div align='left'><label text>Password :</label></div>
+                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="Telephone" name="ex.08-0 "  >
                 
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>email :</label></div>
-                <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
-                
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>password :</label></div>
-                <input type="password" class="form-control" placeholder="password" id="password" name="password" >
-                
-              </div>
-              <div class="form-group">
-                <div align='left'><label text>re password :</label></div>
-                <input type="password" class="form-control" placeholder="re password" id="repassword" name="repassword"  >
-               
-              </div>
-              
+              </div>              
               <div class="form-group">
                 
-                <button type="insert"  class="btn btn-secondary py-3 px-5">Sing up</button>
+                <button type="insert"  class="btn btn-secondary py-3 px-5">Sing in</button>
               </div>
             </form>
           
@@ -130,15 +114,3 @@
         </div>
       </div>
     </footer>
-    
-  
-
-  <!-- loader -->
-  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
-
-
- 
-  
-    
-  </body>
-</html>
