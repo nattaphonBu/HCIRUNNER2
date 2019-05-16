@@ -22,6 +22,13 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('home/home');
 	}
+	public function index1()
+	{
+		
+		// $this->load->view('template/head');
+		$this->load->view('index/index');
+		// $this->load->view('template/footer');
+	}
 	public function register()
 	{
 		$this->load->view('register/register');
@@ -44,6 +51,25 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/head');
 		$this->load->view('template/header');
 		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+	}
+	public function createActivity()
+	{
+		// $this->load->view('home/home');
+		$this->load->view('template/head');
+		$this->load->view('template/header');
+		$this->load->view('createActivity/createActivity');
+		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+		
+	}
+
+	public function login()
+	{
+		$this->load->view('template/head');
+		// $this->load->view('template/header');
+		$this->load->view('login/login');
+		// $this->load->view('template/foot');
 		$this->load->view('template/footer');
 	}
 
