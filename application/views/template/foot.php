@@ -1,24 +1,11 @@
-<!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+<footer class="ftco-footer ftco-section">
+        <div class="row">
+          <div class="col-md-12 text-center">
 
-
-
-<!-- <script>
-  function myFunction() {
-    var txt;
-    if (confirm("Confirm to Join!! ")) {
-      alert("Join Complete");
-    } else {
-      txt = "You pressed Cancel!";
-    }
-    // document.getElementById("demo").innerHTML = txt;
-}
-function myFunction1() {
-      var txt;
-      if (confirm("Are you sure to unjoin?")) {
-        alert("UnJoin Complete");
-      } else {
-        txt = "You pressed Cancel!";
-      }
-      // document.getElementById("demo").innerHTML = txt;
-}
-</script> -->
+            <p><a href="https://www.facebook.com/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B9%8C-274248215956704/"><img src="https://img.icons8.com/color/48/000000/facebook.png"> : วิศวกรรมซอฟต์แวร์ ม.วลัยลักษณ์</a></p>
+            <p>มหาวิทยาลัยวลัยลักษณ์ 222 ตำบลไทยบุรี อำเภอท่าศาลา จังหวัดนครศรีธรรมราช 80161. โทร.0-7567-3000 แฟกซ์. 0-7567-3708</p>
+            <p>©Copyright 2019 Group.1_SWE60-232&SWE-342 All Rights Reserved 0.1234</p>
+          </div>
+        </div>
+      </div>
+    </footer>
