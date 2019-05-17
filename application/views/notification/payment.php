@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-    
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>   
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
@@ -76,24 +75,7 @@
 	  
 
     
-    <!-- <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-section="home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-          	<p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-							<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
-    						<span class="ion-ios-play play mr-2"></span>
-    						<span class="watch">Watch Video</span>
-    					</a>
-						</p>
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We have a passion in creating new and unique spaces</h1>
-            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-	
+   
 
 
   
@@ -103,11 +85,14 @@
         
        
         <center>
-        <p class="error1">Sign Up</p>
-        <p>Join with us </p>
+        <p class="error1">แจ้งชำระเงิน</p>
+        <!-- <p>Join with us </p> -->
           <div class="col-sm-10 order-md-last d-flex">
           
             <form id="insert" class="bg-light p-4 contact-form">
+            <div class="form-group" >
+              <img src="../images/pay.jpg" alt="" width="800">
+            </div>
             <div class="form-group">
                     <div align='left'><label text>ชื่องานวิ่ง :</label></div>
                 <input type="text" class="form-control" placeholder="PRC : Next Step Run 2019 Mini marathon" id="name" name="name" disabled > 
@@ -126,7 +111,17 @@
               <div class="form-group">
               <div align='left'><label text>วันเวลา :</label></div>
               <div align='left'><input id="input" width="234" /></div>
+<<<<<<< HEAD
+            </div>
+=======
+              
 </div>
+<div class="form-group">
+                    <div align='left'><label text>จำนวนที่โอน :</label></div>
+                <input type="number" step="0.01" class="form-control" placeholder="" id="name" name="name"  > 
+                
+              </div>
+>>>>>>> 1c1b21f6ecf87b888841ee9cd24d082dd57d38a2
             <div class="form-group files">
                 <label>Upload Your File </label>
                 <input type="file" class="form-control" multiple="">

@@ -32,7 +32,7 @@ tr,td,table,thead{
 .tc{
     color : white;
 }
-
+/* 
 </style>
 <body>
     <div class="container" id="bgbody">
@@ -50,7 +50,7 @@ tr,td,table,thead{
     <p>4.เพื่อหารายได้มอบให้การกุศลแก่โรงเรียนในพื้นที่จัดการแข่งขัน</p>
 
     <p><h1>ประเภทการแข่งขัน</h1></p>
-</div>
+</div> */
 
 
 
