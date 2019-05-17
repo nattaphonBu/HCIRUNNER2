@@ -28,7 +28,7 @@
         <a class="nav-link active" href="ListActivity.php">กิจกรรมที่รอการอนุมัติ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="LA2.php">Link</a>
+        <a class="nav-link " href="LA2.php">กิจกรรมที่อนุมัติแล้ว</a>
       </li>
       
     </ul>
@@ -40,7 +40,7 @@
 
             <div class="card text-center">
                 <div class="card-header">
-                <h3>กิจกรรมที่ 1 </h3>
+                <h3>กิจกรรมที่ asda </h3>
                 </div>
                     <div class="card-body">
                         <h5 class="card-title">Bangkok Airways ChiangRai Half Marathon 2019</h5>
