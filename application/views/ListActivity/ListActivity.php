@@ -54,7 +54,7 @@
                     <div class="card-footer text-muted">        
                     </div>
             </div>
-
+            <br>
             <div class="card text-center">
                 <div class="card-header">
                     <h3>กิจกรรมที่ 2</h3>
@@ -70,7 +70,7 @@
                     <div class="card-footer text-muted">        
                     </div>
             </div>
-
+            <br>
             <div class="card text-center">
                 <div class="card-header">
                 <h3>กิจกรรมที่ 3 </h3>

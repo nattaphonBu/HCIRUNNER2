@@ -31,7 +31,7 @@
       <section class="ftco-section contact-section ftco-no-pb" >
         <div class="container">
         <center>
-            <p class="error1">รายละเอียดกิจกรรม</p>
+            <p class="error1">รายละเอียดกิจกรรมที่รออนุมัติ</p>
           <div class="col-sm-12 order-md-last d-flex">
             <form id="insert" class="bg-light p-4 contact-form">
           <div class="row">
@@ -194,7 +194,7 @@
           </form>
         </center>
       </div>
-    </div>
+    </div><br><br>
   </section>
       
 
