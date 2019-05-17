@@ -23,7 +23,7 @@
     background-color : black;
 }
 #bgbody{
-    background-color : #DEDFE1;
+    background-color : #ffffff;
 }
 tr,td,table,thead{
     border-color : white;
@@ -34,7 +34,7 @@ tr,td,table,thead{
 }
 </style>
 
-<body>
+<body><br><br>
     <div class="container" id="bgbody">
     <ul class="bgnev" ></ul>
 <div class="container" id="ct1">
@@ -50,7 +50,7 @@ tr,td,table,thead{
     <p>4.เพื่อหารายได้มอบให้การกุศลแก่โรงเรียนในพื้นที่จัดการแข่งขัน</p>
 
     <p><h1>ประเภทการแข่งขัน</h1></p>
-</div> */
+</div> 
 
 
 
@@ -193,13 +193,13 @@ tr,td,table,thead{
             <td>1000</td>
           </tr>
           
-        
+        <br><br>
       </tbody>
     </table>
-    <button onClick="myFunction()" class="btn btn-primary btn-sm btn-block"><h1 class="tc">เข้าร่วม</h1></button>
+    <button onClick="myFunction()"  class="btn btn-success py-3 px-5"><h4 class="tc">เข้าร่วม</h4></button>
     
   </div>
-  </div>
+  </div><br><br><br>
   
   
 
