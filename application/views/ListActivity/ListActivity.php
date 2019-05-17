@@ -17,13 +17,30 @@
 </style>
 <body>
 
+
 <div class="container">
     <div class="row">
         <div class="col-sm">
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="card-body">
+
+
+  
 
             <div class="card text-center">
                 <div class="card-header">
-                    กิจกรรมที่ 1
+                <h3>กิจกรรมที่ 1 </h3>
                 </div>
                     <div class="card-body">
                         <h5 class="card-title">Bangkok Airways ChiangRai Half Marathon 2019</h5>
@@ -39,7 +56,7 @@
 
             <div class="card text-center">
                 <div class="card-header">
-                    กิจกรรมที่ 2
+                    <h3>กิจกรรมที่ 2</h3>
                 </div>
                     <div class="card-body">
                         <h5 class="card-title">Bangkok Airways Phuket Half Marathon 2019 </h5>
@@ -55,7 +72,7 @@
 
             <div class="card text-center">
                 <div class="card-header">
-                    กิจกรรมที่ 3
+                <h3>กิจกรรมที่ 3 </h3>
                 </div>
                     <div class="card-body">
                         <h5 class="card-title">“ศิครินทร์ หาดใหญ่ ฮาล์ฟ มาราธอน 2019” 
@@ -72,11 +89,12 @@
 
 
 
-        </div>
+  
+  </div>
+</div>
+</div>
     </div>
 </div>
-
-
 
 
 
