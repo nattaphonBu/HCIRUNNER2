@@ -231,6 +231,7 @@ function showDivs(n) {
       var txt;
       if (confirm("คุณต้องการเข้าร่วมใช่หรือไม่")) {
         alert("คุณเข้าร่วมกิจกรรม");
+        window.location.replace("index");
       } else {
         alert("ไม่ได้เข้าร่วมกิจกรรม");
       }
