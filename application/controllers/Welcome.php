@@ -113,5 +113,15 @@ class Welcome extends CI_Controller {
 		
 	}
 	
+	public function editprofile_screen()
+	{
+		
+		$this->load->view('template/head');
+		$this->load->view('template/header_user');
+		$this->load->view('profile/edit_profile_screen');
+		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+		
+	}
 
 }

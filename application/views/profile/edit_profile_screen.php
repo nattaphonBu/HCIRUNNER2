@@ -35,39 +35,39 @@
         
        
         <center>
-        <p class="error1 ">ข้อมูลผู้ใช้</p>
+        <p class="error1 ">แก้ไขข้อมูลผู้ใช้</p>
         <!-- <p class="error1 "><i class="fa fa-address-book" style="font-size:48px;color:Green"></i>ข้อมูลผู้ใช้</p> -->
         <!-- <p>Join with us </p> -->
           <div class="col-sm-10 order-md-last d-flex">
               
-            <form  class="bg-light p-4 contact-form">
+            <form id="insert" class="bg-light p-4 contact-form">
               <div class="form-group ">
                 <div class="row">
                     <div class="col">
                         <div align='left'><label text>ชือนามสกุล :</label></div>
-                         <input type="text" class="form-control" placeholder="อภิรยา ทองสวรรค์" id="name" name="name" disabled > 
+                         <input type="text" class="form-control" placeholder="อภิรยา ทองสวรรค์" id="name" name="name"  > 
                     </div>
                     <div class="col">
                         <div align='left'><label text>เบอร์โทรศัพท์ :</label></div>
-                         <input type="text" class="form-control" placeholder="086-551-2999" id="name" name="name" disabled > 
+                         <input type="text" class="form-control" placeholder="086-551-2999" id="name" name="name"  > 
                     </div>
                     <div class="col">
                         <div align='left'><label text>อีเมล์ :</label></div>
-                         <input type="text" class="form-control" placeholder="apiraya_2000@mail.com" id="name" name="name" disabled > 
+                         <input type="text" class="form-control" placeholder="apiraya_2000@mail.com" id="name" name="name"  > 
                     </div>
               </div>
               <div class="row">
                     <div class="col">
                     <div align='left'><label text>อายุ :</label></div>
-                            <input type="number" class="form-control  " placeholder="--" id="password" name="password" >
+                            <input type="number" class="form-control  " placeholder="" id="password" name="password" >
                     </div>
                     <div class="col">
                     <div align='left'><label text>กรุ๊ปเลือด :</label></div>
-                        <input type="text" class="form-control" placeholder="--" id="repassword" name="repassword"  >
+                        <input type="text" class="form-control" placeholder="" id="repassword" name="repassword"  >
                     </div>
                     <div class="col">
                         <div align='left'><label text>สัญชาติ :</label></div>
-                         <input type="text" class="form-control" placeholder="--" id="name" name="name"  > 
+                         <input type="text" class="form-control" placeholder="" id="name" name="name"  > 
                     </div>
               </div>
              
@@ -75,29 +75,41 @@
               
               <div class="form-group">
                 <div align='left'><label text> ที่อยู่ :</label></div>
-                <input type="text" class="form-control" placeholder="--" id="repassword" name="repassword"  >
+                <input type="text" class="form-control" placeholder="" id="repassword" name="repassword"  >
                
               </div>
               
               <div class="form-group">
                 <div class="row">
                     <div class="col">
-                    <a class="btn btn-secondary py-3 px-5" href="<?=base_url("Welcome/editprofile_screen") ?>">แก้ไขข้อมูลผู้ใช้</a>
+                <button class="btn btn-secondary py-3 px-5" onClick="myFunction()">แก้ไขข้อมูลผู้ใช้</button>
                     </div>
-                    <div class="col">
-                <button type="insert"  class="btn btn-info py-3 px-5">ประวัติการเข้าร่วม</button>
-                    </div>
+
                 </div>
             </div>
             </form>
           
           </div>
         </center>
-        
+          <div class="col-md-1 d-flex">
+          	<div id="map" class="bg-white"></div>
+          </div>
         </div>
       </div>
      
     </section>
+
+
+    <script>
+    function myFunction() {
+      var txt;
+      if (confirm("ต้องการบันทึกข้อมูลใช่หรือไม่ ")) {
+        alert("ระบบบันทึกข้อมูลสำเร็จ");
+      } else {
+         alert("ระบบบันทึกข้อมูลไม่สำเร็จ");
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
 
  
 		
@@ -105,7 +117,7 @@
 
   
 
-
+</script>
  
   
     
