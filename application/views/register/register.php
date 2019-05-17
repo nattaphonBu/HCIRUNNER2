@@ -32,13 +32,15 @@
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav nav ml-auto">
-                        <!-- <li class="nav-item"><a href="home.html" class="nav-link" data-nav-section="blog"><span>Home</span></a></li> -->
-                        <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="nav-link1"><span>Sign in</span></a></li>&nbsp;&nbsp;
-                  </ul>
-
+	        <ul class="navbar-nav nav ml-auto">
+	          <!-- <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-primary " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp; -->
+            <!-- <button class="btn btn-primary">หน้าหลัก</button> -->
 	        </ul>
-	      </div>
+        </div>
+        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-primary "><span>ลงชื่อเข้าใช้</span></a></li>
+            <!-- <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-info "><span>ลงชื่ออก</span></a></li>&nbsp;&nbsp; -->
+      </ul>
 	    </div>
 	  </nav>
     
@@ -69,40 +71,40 @@
         
        
         <center>
-        <p class="error1">Sign Up</p>
-        <p>Join with us </p>
+        <p class="error1">สมัครสมาชิก</p>
+        <p>ร่วมเป็นครอบครัว Run My Way </p>
           <div class="col-sm-4 order-md-last d-flex">
               
             <form id="insert" class="bg-light p-4 contact-form">
               <div class="form-group">
-                    <div align='left'><label text>Fullname :</label></div>
+                    <div align='left'><label text>ชื่อบัญชีผู้ใช้ :</label></div>
                 <input type="text" class="form-control" placeholder="ex.Burin panchat" id="name" name="name" > 
                 
               </div>
               <div class="form-group">
-                    <div align='left'><label text>Telephone :</label></div>
+                    <div align='left'><label text>เบอร์โทรศัพท์ :</label></div>
                 <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
                 
               </div>
               <div class="form-group">
-                <div align='left'><label text>email :</label></div>
+                <div align='left'><label text>อีเมล์ :</label></div>
                 <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
                 
               </div>
               <div class="form-group">
-                <div align='left'><label text>password :</label></div>
-                <input type="password" class="form-control" placeholder="password" id="password" name="password" >
+                <div align='left'><label text>รหัสผ่าน :</label></div>
+                <input type="password" class="form-control" placeholder="" id="password" name="password" >
                 
               </div>
               <div class="form-group">
-                <div align='left'><label text>re password :</label></div>
-                <input type="password" class="form-control" placeholder="re password" id="repassword" name="repassword"  >
+                <div align='left'><label text>ยืนยันรหัสผ่าน :</label></div>
+                <input type="password" class="form-control" placeholder="" id="repassword" name="repassword"  >
                
               </div>
               
               <div class="form-group">
                 
-                <button type="insert"  class="btn btn-secondary py-3 px-5">Sing up</button>
+                <button type="insert"  class="btn btn-secondary py-3 px-5">สมัครสมาชิก</button>
               </div>
             </form>
           
