@@ -58,6 +58,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
 	}
+	public function AdminHome()
+	{
+		// $this->load->view('home/home');
+		$this->load->view('template/head');
+		$this->load->view('template/header');
+		$this->load->view('AdminHome/AdminHome.php');
+		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+	}
 	public function ListActivity()
 	{
 		// $this->load->view('home/home');
