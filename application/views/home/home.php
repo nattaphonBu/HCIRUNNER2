@@ -22,10 +22,15 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-   <style>
-  
-   }
-   </style>
+  <style>
+    .join{
+      width: 100px;
+    }
+    .read{
+      width: 150px;
+      re
+    }
+  </style>
   <body>
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -115,8 +120,8 @@
                     <p>" ส่งเสริมการวิ่งออกกำลังกายเพื่อสุขภาพในสถานที่อากาศดี ทิวทัศน์งดงาม " </p>
             
                 <div class="d-flex align-items-center mt-4 meta">
-                    <p><button class="btn btn-secondary" onClick="myFunction()">Join </button></p>
-                    <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                    <p><button class="btn btn-secondary join" onClick="myFunction()" >เข้าร่วม</button></p>
+                    <p class="mb-000"><a href="#" class="btn btn-outline-success read" >Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 	                <p class="mb-0000">
                     <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 132</a>	
 	                </p>
@@ -179,7 +184,7 @@
                 <h3 class="heading"><a href="single.html">Championjam @แม่กำปองเทรล2019 #รับประกันเส้นทางต้องลุกเป็นไฟ</a></h3>
                 <p>🍃💨ขาแกร่งเตรียมตัวให้ดี!! สำหรับงาน แม่กำปองเทรล2019  🔥</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary">Join </a></p>
+                        <p><a href="#" class="btn btn-secondary">ยกเลิกการเข้าร่วม </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 342</a>	
@@ -211,7 +216,7 @@
                 <h3 class="heading"><a href="single.html">Singha CNX KOM Chiangmai Up Hill Run</a></h3>
                 <p>สนามที่สามของสิงห์ซีรี่ส์ รัน 2019 พาเพื่อนมาวิ่งยามเช้ารับบรรยากาศเส้นทางธรรมชาติ </p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary disabled" >Join </a></p>
+                        <p><a href="#" class="btn btn-secondary disabled" >เข้าร่วม </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 839</a>	
@@ -242,7 +247,7 @@
                 <h3 class="heading"><a href="single.html">SUPERSPORTS 10 MILE 2019 INTERNATIONAL RUN</a></h3>
                 <p>ซูเปอร์สปอร์ต ร้านค้าอุปกรณ์กีฬาอันดับ 1 ของประเทศไทยvอย่าลืมมาเข้าร้วมกันน่ะ!</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary">Join </a></p>
+                        <p><a href="#" class="btn btn-secondary">เข้าร่วม </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 323</a>	
@@ -273,7 +278,7 @@
                 <h3 class="heading"><a href="single.html">Healthy Lifestyle Run 2019 by Dutch Mill</a></h3>
                 <p>งานเดิน-วิ่งการกุศล สร้างเสริมสุขภาพดี Healthy Lifestyle Run 2019 by Dutch Mill</p>
                 <div class="d-flex align-items-center mt-4 meta">
-                        <p><a href="#" class="btn btn-secondary disabled">Join </a></p>
+                        <p><a href="#" class="btn btn-secondary disabled">เข้าร่วม </a></p>
                         <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                         <p class="mb-0000">
                         <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 764</a>	
