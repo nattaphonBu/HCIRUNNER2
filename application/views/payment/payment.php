@@ -24,10 +24,102 @@
 
     <form>
     <div class="container" id="bgbody">
-    <p><h1 class="cen">การจัดการงานวิ่ง</h1></p>
+    <p><h1 class="cen">รายชื่อผู้จ่ายเงิน</h1></p>
         <div class="row">
             <div class="col-sm-12 cen" > 
-            
+            <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">รหัสผู้ใช้</th>
+                <th scope="col">ชื่อ-สกุล</th>
+                <th scope="col">งานวิ่ง</th>
+                <th scope="col">แพคเกจ</th>
+                <th scope="col">ราคา</th>
+                <th scope="col">ไฟล์</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">59119941</th>
+                <td>นางสาววิชุตา หมาดอะดำ</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+                <td>Micro Marathon</td>
+                <td>600</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+                <tr>
+                <th scope="row">60113479</th>
+                <td>นายบุรินทร์ พันธ์ชาติ</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+                <td>Half Marathon</td>
+                <td>850</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+                <tr>
+                <th scope="row">60114105</th>
+                <td>นายพงศธร รักทอง</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+                <td>Mini Marathon</td>
+                <td>750</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+                <tr>
+                <th scope="row">59113589</th>
+                <td>นายณัฐพล บุญสุวรรณ์</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+<td>Micro Marathon</td>
+                <td>600</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+                <tr>
+                <th scope="row">59145219</th>
+                <td>นายเอกวิชญ์ จำนงจิต</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+<td>Micro Marathon</td>
+                <td>600</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+                <tr>
+                <th scope="row">59119438</th>
+                <td>นายวณัฐพงค์ ปริตรศิรประภา</td>
+                <td>
+16
+2019
+June
+จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
+<td>Half Marathon</td>
+                <td>850</td>
+                <td>1 ไฟล์</td>
+                
+                </tr>
+            </tbody>
+            </table>
+            <br><br>
             </div>
         </div>
     </div>
