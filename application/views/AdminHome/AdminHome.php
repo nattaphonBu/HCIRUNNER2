@@ -36,7 +36,7 @@
             </div>
             <div class="col-sm-6 cen">
             <br><br><br><br>
-            <a href="<?=base_url("Welcome/ListActivity") ?>">
+            <a href="<?=base_url("Welcome/paymentcheck") ?>">
             <img src="https://img.icons8.com/color/96/000000/refund.png" width="150px">
             <p><h3>อนุมัติการจ่ายเงิน</h3></p>
             </a>
