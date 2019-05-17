@@ -37,6 +37,39 @@
                     </div>
             </div>
 
+            <div class="card text-center">
+                <div class="card-header">
+                    กิจกรรมที่ 2
+                </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bangkok Airways Phuket Half Marathon 2019 </h5>
+                    <div class="text-center">
+                        <img src="../images/AC3.png" class="rounded" width="300px">
+                    </div> 
+                        <p class="card-text">วันอาทิตย์ 4 สิงหาคม 2562  เวลา 04:00 – 08:00 น.</p>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">จัดการกิจกรรม</button>
+                    </div>
+                    <div class="card-footer text-muted">        
+                    </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="card-header">
+                    กิจกรรมที่ 3
+                </div>
+                    <div class="card-body">
+                        <h5 class="card-title">“ศิครินทร์ หาดใหญ่ ฮาล์ฟ มาราธอน 2019” 
+                                เดิน-วิ่งเพื่อเด็กโรคหัวใจพิการแต่กำเนิด  </h5>
+                    <div class="text-center">
+                        <img src="../images/AC2.JPG" class="rounded" width="300px">
+                    </div> 
+                        <p class="card-text">วันอาทิตย์ที่ 18 สิงหาคม 2562 เวลา 09:00 – 19:00 น.</p>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">จัดการกิจกรรม</button>
+                    </div>
+                    <div class="card-footer text-muted">        
+                    </div>
+            </div>
+
 
 
         </div>
