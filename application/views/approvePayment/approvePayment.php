@@ -104,37 +104,37 @@
                 <input type="text" class="form-control" placeholder="Marathon 42.5KM" id="name" name="name" disabled > 
                 
               </div>
-              <div class="col-6">
+              <div class="col-3">
                     <div align='left'><label text>ราคา :</label></div>
-                <input type="text" class="form-control" placeholder="1000 บาท" id="name" name="name" disabled > 
+                <input type="text" class="form-control" placeholder="479 บาท" id="name" name="name" disabled > 
                 
               </div>
-              <div class="col-6">
+
+              <div class="col-3">
               <div align='left'><label text>วันเวลา :</label></div>
-              <div align='left'><input id="input" width="234" /></div>
-              
+              <input type="text" class="form-control" placeholder="11:59 29/03/2562" id="name" name="name" disabled >
               </div>
+
               <div class="col-6">
-                    <div align='left'><label text>จำนวนที่โอน :</label></div>
-                <input type="number" step="0.01" class="form-control" placeholder="" id="name" name="name"  > 
+                    <div align='left'><label text>ชื่อผู้เข้าร่วม :</label></div>
+                <input type="text" class="form-control" placeholder="นางสาววิชุตา หมาดอะดำ" id="name" name="name" disabled > 
+              </div>
+                
+              <div class="col-3">
+                    <div align='left'><label text>จำนวนเงินที่โอน :</label></div>
+                <input type="text" class="form-control" placeholder="479.00" id="name" name="name" disabled > 
                 
               </div>
-              </div>
-              </div>
-              <!-- <div class="row">
-                <div class="col-8"> -->
-            <div class="form-group files" >
-                <label>Upload Your File </label>
-                <input type="file" class="form-control" multiple="">
-            </div>
+                </div>
+                <div class="form-group">
+              <img src="../images/payment.jpg" class="img-rounded" alt="Cinque Terre" width="300" height="500">
+            </div>   
               
               
-              <div class="form-group">
-                
-                <button type="insert"  class="btn btn-success py-3 px-5">ส่ง</button>
+            <div class="form-group">
+                  <button  class="btn btn-success py-3 px-5" onClick="myFunction()">อนุมัติ</button>&nbsp;&nbsp;
               </div>
-              <!-- </div>
-              </div> -->
+              </div>
             </form>
           
           </div>
@@ -159,9 +159,15 @@
 </html>
 
 <script>
-     $('#input').datetimepicker({
-            uiLibrary: 'bootstrap4',
-            modal: true,
-            footer: true
-        });
+    function myFunction() {
+      var alert;    
+      if (confirm("คุณต้องการอนุมัติกิจกรรมใช่หรือไม่ ")) {
+        alert("ระบบทำการอนุมัติ");
+        window.location.replace("AdminHome");
+      } else {
+        alert("ยกเลิก")
+        
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
 </script>
