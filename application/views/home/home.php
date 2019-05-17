@@ -81,24 +81,26 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph1.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('images/chan.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
               		<div class="one mr-3">
-              			<span class="day">12</span>
+              			<span class="day">16</span>
               		</div>
               		<div class="two">
               			<span class="yr">2019</span>
-              			<span class="mos">April</span>
+              			<span class="mos">June</span>
                       </div>
                       <div class="two mr-3">
                             
                         <span class="em"></span>
                     </div>
               	</div>
-                <h3 class="heading"><a href="single.html">PRC : Next Step Run 2019 Mini marathon</a></h3>
-                <p>งานวิ่งประเพณี ส.น.ป. มินิมาราทอน 6.00 น. ณ ลานหน้าโบสถ์ โรงเรียนปรินส์รอยแยลส์วิทยาลัย</p>
+                <h3 class="heading"><a href="single.html">จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</a></h3>
+                <h6>16 JUNE 2019 </h6>
+                    <p>" ส่งเสริมการวิ่งออกกำลังกายเพื่อสุขภาพในสถานที่อากาศดี ทิวทัศน์งดงาม " </p>
+            
                 <div class="d-flex align-items-center mt-4 meta">
                     <p><button class="btn btn-secondary" onClick="myFunction()">Join </button></p>
                     <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
