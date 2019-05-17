@@ -83,9 +83,10 @@
               </div>
               <div class="form-group">
                     <div align='left'><label text>รหัสผ่าน :</label></div>
-                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="Telephone" name="ex.08-0 "  >
+                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="password" name="password"  >
                 
-              </div>              
+              </div>     
+                   
               <div class="form-group">
                 
                 <button type="insert"  class="btn btn-secondary py-3 px-5">Sing in</button>
