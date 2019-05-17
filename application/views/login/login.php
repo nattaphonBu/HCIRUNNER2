@@ -86,14 +86,14 @@
                 <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="password" name="password"  >
                 
               </div>     
-                   
+              <br>
               <div class="form-group">
                 
                 <button type="insert"  class="btn btn-secondary py-3 px-5">Sing in</button>
               </div>
             </form>
           
-          </div>
+          </div><br><br><br>
         </center>
           <div class="col-md-1 d-flex">
           	<div id="map" class="bg-white"></div>

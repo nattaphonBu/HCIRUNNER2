@@ -103,19 +103,20 @@
               </div>
               
               <div class="form-group">
-                
+              <br>
+     
                 <button type="insert"  class="btn btn-secondary py-3 px-5">สมัครสมาชิก</button>
               </div>
             </form>
           
-          </div>
+          </div><br><br><br>
+     
         </center>
           <div class="col-md-1 d-flex">
           	<div id="map" class="bg-white"></div>
           </div>
         </div>
       </div>
-     
     </section>
 
  

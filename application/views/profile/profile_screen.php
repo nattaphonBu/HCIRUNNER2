@@ -78,7 +78,7 @@
                 <input type="text" class="form-control" placeholder="--" id="repassword" name="repassword"  >
                
               </div>
-              
+              <br>
               <div class="form-group">
                 <div class="row">
                     <div class="col">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
             </div>
-            </form>
+            </form><br><br>
           
           </div>
         </center>
