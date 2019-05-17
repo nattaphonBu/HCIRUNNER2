@@ -34,7 +34,7 @@
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demo"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <a class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/payment") ?>">ชำระเงิน</a>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ Championjam @แม่กำปองเทรล2019 </h4></p>
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demos"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <p><button  class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
