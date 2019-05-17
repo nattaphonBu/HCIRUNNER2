@@ -147,7 +147,7 @@
                           <td class="col-sm-2"><a class="deleteRow"></a>
                           </td>
                           <td colspan="5" style="text-align: left;">
-                              <input type="button" class="btn btn-info"  id="addrow" value="เพิ่มตาราง" />
+                              <input type="button" class="btn btn-outline-primary"  id="addrow" value="เพิ่มตาราง" />
                           </td>
                       </tr>
                     </tbody>
