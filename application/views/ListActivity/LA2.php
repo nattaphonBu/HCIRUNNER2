@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+  
 <style>
     body{
         font-family: Rubik;
@@ -25,10 +26,10 @@
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="ListActivity.php">กิจกรรมที่รอการอนุมัติ</a>
+        <a class="nav-link " href="ListActivity.php">กิจกรรมที่รอการอนุมัติ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="LA2.php">กิจกรรมที่อนุมัติแล้ว</a>
+        <a class="nav-link active" href="LA2.php">กิจกรรมที่อนุมัติแล้ว</a>
       </li>
       
     </ul>
@@ -40,14 +41,14 @@
 
             <div class="card text-center">
                 <div class="card-header">
-                <h3>กิจกรรมที่ 1 </h3>
+                <h3>กิจกรรมที่ 1</h3>
                 </div>
                     <div class="card-body">
-                        <h5 class="card-title">Bangkok Airways ChiangRai Half Marathon 2019</h5>
+                        <h5 class="card-title">จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</h5>
                     <div class="text-center">
-                        <img src="../images/AC1.png" class="rounded" width="300px">
+                        <img src="../images/chan.jpg" class="rounded" width="300px">
                     </div> 
-                        <p class="card-text">วันเสาร์ 14 ก.ย. 2562 เวลา 09:00 – 19:00 น.</p>
+                        <p class="card-text">วันอาทิตย์ที่ 16 มิถุนายน 2562 เวลา 09:00 – 19:00 น.</p>
                             <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
                     </div>
                     <div class="card-footer text-muted">        
@@ -59,11 +60,11 @@
                     <h3>กิจกรรมที่ 2</h3>
                 </div>
                     <div class="card-body">
-                        <h5 class="card-title">Bangkok Airways Phuket Half Marathon 2019 </h5>
+                        <h5 class="card-title">SONGKRAN CHIANGMAI NIGHT RUN 2019 สงกรานต์เชียงใหม่ ไนท์รัน(ครั้งที่ 5) </h5>
                     <div class="text-center">
                         <img src="../images/AC3.png" class="rounded" width="300px">
                     </div> 
-                        <p class="card-text">วันอาทิตย์ 4 สิงหาคม 2562  เวลา 04:00 – 08:00 น.</p>
+                        <p class="card-text">วันเสาร์ที่ 13 เมษายน 2562  เวลา 04:00 – 08:00 น.</p>
                             <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
                     </div>
                     <div class="card-footer text-muted">        
@@ -75,12 +76,11 @@
                 <h3>กิจกรรมที่ 3 </h3>
                 </div>
                     <div class="card-body">
-                        <h5 class="card-title">“ศิครินทร์ หาดใหญ่ ฮาล์ฟ มาราธอน 2019” 
-                                เดิน-วิ่งเพื่อเด็กโรคหัวใจพิการแต่กำเนิด  </h5>
+                        <h5 class="card-title">Championjam @แม่กำปองเทรล2019 #รับประกันเส้นทางต้องลุกเป็นไฟ  </h5>
                     <div class="text-center">
                         <img src="../images/AC2.JPG" class="rounded" width="300px">
                     </div> 
-                        <p class="card-text">วันอาทิตย์ที่ 18 สิงหาคม 2562 เวลา 09:00 – 19:00 น.</p>
+                        <p class="card-text">วันอาทิตย์ที่ 2 กรกฎาคม 2562 เวลา 09:00 – 19:00 น.</p>
                             <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
                     </div>
                     <div class="card-footer text-muted">        

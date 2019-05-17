@@ -154,10 +154,11 @@
                   </table>
                 </div>
                 </div>
+                <br>
                   <div class="form-group">
                   <button type="insert"  class="btn btn-success py-3 px-5">บันทึก</button>
               </div>
-          </form>
+          </form><br><br>
         </center>
       </div>
     </div>
