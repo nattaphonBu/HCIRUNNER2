@@ -26,10 +26,10 @@
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link " href="ListActivity.php">กิจกรรมที่รอการอนุมัติ</a>
+        <a class="nav-link " href="<?=base_url("Welcome/ListActivity") ?>">กิจกรรมที่รอการอนุมัติ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="LA2.php">กิจกรรมที่อนุมัติแล้ว</a>
+        <a class="nav-link active" >กิจกรรมที่อนุมัติแล้ว</a>
       </li>
       
     </ul>
@@ -49,7 +49,7 @@
                         <img src="../images/chan.jpg" class="rounded" width="300px">
                     </div> 
                         <p class="card-text">วันอาทิตย์ที่ 16 มิถุนายน 2562 เวลา 09:00 – 19:00 น.</p>
-                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรม</button>
                     </div>
                     <div class="card-footer text-muted">        
                     </div>
@@ -65,7 +65,7 @@
                         <img src="../images/AC3.png" class="rounded" width="300px">
                     </div> 
                         <p class="card-text">วันเสาร์ที่ 13 เมษายน 2562  เวลา 04:00 – 08:00 น.</p>
-                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรม</button>
                     </div>
                     <div class="card-footer text-muted">        
                     </div>
@@ -81,11 +81,13 @@
                         <img src="../images/AC2.JPG" class="rounded" width="300px">
                     </div> 
                         <p class="card-text">วันอาทิตย์ที่ 2 กรกฎาคม 2562 เวลา 09:00 – 19:00 น.</p>
-                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรม</button>
                     </div>
                     <div class="card-footer text-muted">        
                     </div>
             </div>
+            
+            
 
 
 
@@ -99,6 +101,7 @@
 
 
 
-
+<br>
+<br>
 </body>
 </html>
