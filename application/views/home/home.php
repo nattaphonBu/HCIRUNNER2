@@ -44,7 +44,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="<?=base_url("Welcome/detail") ?>" class="block-20" style="background-image: url('images/chan.jpg');">
+              <a href="<?=base_url("Welcome/detail") ?>" class="block-20" style="background-image: url('../images/chan.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
