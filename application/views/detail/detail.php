@@ -32,8 +32,8 @@ tr,td,table,thead{
 .tc{
     color : white;
 }
-/* 
 </style>
+
 <body>
     <div class="container" id="bgbody">
     <ul class="bgnev" ></ul>
@@ -196,7 +196,7 @@ tr,td,table,thead{
         
       </tbody>
     </table>
-    <button type="button" class="btn btn-primary btn-sm btn-block"><h1 class="tc">เข้าร่วม</h1></button>
+    <button onClick="myFunction()" class="btn btn-primary btn-sm btn-block"><h1 class="tc">เข้าร่วม</h1></button>
     
   </div>
   </div>
@@ -225,3 +225,24 @@ function showDivs(n) {
 
 </body>
 </html>
+
+<script>
+    function myFunction() {
+      var txt;
+      if (confirm("คุณต้องการเข้าร่วมใช่หรือไม่")) {
+        alert("คุณเข้าร่วมกิจกรรม");
+      } else {
+        alert("ไม่ได้เข้าร่วมกิจกรรม");
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
+  function myFunction1() {
+        var txt;
+        if (confirm("Are you sure to unjoin?")) {
+          alert("UnJoin Complete");
+        } else {
+          txt = "You pressed Cancel!";
+        }
+        // document.getElementById("demo").innerHTML = txt;
+  }
+</script>

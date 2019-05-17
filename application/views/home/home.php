@@ -94,7 +94,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/chan.jpg');">
+              <a href="<?=base_url("Welcome/detail") ?>" class="block-20" style="background-image: url('images/chan.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -116,9 +116,9 @@
             
                 <div class="d-flex align-items-center mt-4 meta">
                     <p><button class="btn btn-secondary" onClick="myFunction()">Join </button></p>
-                    <p class="mb-000"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                    <p class="mb-000"><a href="<?=base_url("Welcome/detail") ?>" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 	                <p class="mb-0000">
-                    <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 132</a>	
+                    <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="<?=base_url("Welcome/report") ?>" class="meta-chat"> 132</a>	
 	                </p>
                 </div>
               </div>
