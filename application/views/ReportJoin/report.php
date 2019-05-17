@@ -34,8 +34,8 @@
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demo"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><h4>แนบไฟล์ที่นี้ : <input type="file" mark="3" style="width: 300px;" id="work_file" class="btn btn-outline-secondary" name="work_file"   /></h4>  </p>
-                <p>**หมายเหตุ แนบรูป</p>
+                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
             
@@ -73,7 +73,8 @@ Championjam @แม่กำปองเทรล2019 </h4></p>
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demos"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><h4>แนบไฟล์ที่นี้ : <input type="file" mark="3" style="width: 300px;" id="work_file" class="btn btn-outline-secondary" name="work_file"   /></h4>  </p>
+                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
             
@@ -83,7 +84,7 @@ Championjam @แม่กำปองเทรล2019 </h4></p>
         <div>
         <div class="progress" style="height:40px">
             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <button type="button"  class="btn btn-outline-success">รอการดำเนินการ</button>
+            <button type="button"  class="btn btn-outline-success">เข้าร่วมเรียบร้อยแล้ว</button>
         </div>
         
         </div>
