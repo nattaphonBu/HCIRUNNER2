@@ -21,19 +21,19 @@ $("#insert").validate({
         },
         messages: {
             name: {
-                required: "Please Enter Name"
+                required: "กรอกชื่อบัญชีผู้ใช้"
             },
             Telephone: {
-                required: "Please Enter Telphone",
+                required: "กรอกเบอร์โทรศัพท์",
             },
             email: {
-                required: "Please Enter Email",
+                required: "กรอกอีเมล์",
             },
             password: {
-                    required: "Please Enter Password",
+                    required: "กรอกรหัสผ่าน",
             },
             repassword: {
-                    required: "Please Enter Re Password",
+                    required: "กรอกรหัสผ่าน",
             }
         },
     });
