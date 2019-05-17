@@ -251,7 +251,7 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
   <script>
-    function myFunction() {
+    function myFunction1() {
       var txt;
       if (confirm("Confirm to Join!! ")) {
         alert("Join Complete");
@@ -260,12 +260,12 @@
       }
       // document.getElementById("demo").innerHTML = txt;
 }
-  function myFunction1() {
+  function myFunction() {
         var txt;
-        if (confirm("Are you sure to unjoin?")) {
-          alert("UnJoin Complete");
+        if (confirm("คุณต้องการเข้าร่วมกิจกรรมนี้หรือไม่")) {
+          alert("คุณได้เข้าร่วม");
         } else {
-          txt = "You pressed Cancel!";
+          alert("ยกเลิกการเข้าร่วม");
         }
         // document.getElementById("demo").innerHTML = txt;
   }
