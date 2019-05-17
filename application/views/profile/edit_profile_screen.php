@@ -8,6 +8,8 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+    
     <style>
         p.error1{
           font-size: 52px;
@@ -82,7 +84,8 @@
               <div class="form-group">
                 <div class="row">
                     <div class="col">
-                <button class="btn btn-secondary py-3 px-5" onClick="myFunction()">แก้ไขข้อมูลผู้ใช้</button>
+               
+                <button onClick="myFunction()" class="btn btn-secondary py-3 px-5">แก้ไขข้อมูลผู้ใช้</button>
                     </div>
 
                 </div>
@@ -91,35 +94,32 @@
           
           </div>
         </center>
-          <div class="col-md-1 d-flex">
-          	<div id="map" class="bg-white"></div>
-          </div>
+         
         </div>
       </div>
      
     </section>
 
 
-    <script>
-    function myFunction() {
-      var txt;
-      if (confirm("ต้องการบันทึกข้อมูลใช่หรือไม่ ")) {
-        alert("ระบบบันทึกข้อมูลสำเร็จ");
-      } else {
-         alert("ระบบบันทึกข้อมูลไม่สำเร็จ");
-      }
-      // document.getElementById("demo").innerHTML = txt;
-}
 
  
-		
-
-
-  
-
-</script>
  
   
     
   </body>
 </html>
+
+<script>
+    function myFunction() {
+      var txt;
+      if (confirm("ต้องการบันทึกข้อมูลใช่หรือไม่ ")) {
+        alert("ระบบบันทึกข้อมูลสำเร็จ");
+        
+       
+      } else {
+         alert("ระบบบันทึกข้อมูลไม่สำเร็จ");
+      }
+      // document.getElementById("demo").innerHTML = txt;
+    }
+
+    </script>

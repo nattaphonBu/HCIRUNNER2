@@ -22,10 +22,8 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-   <style>
-  
-   
-   </style>
+  <style>
+  </style>
   <body>
 	  
    
