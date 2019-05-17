@@ -28,7 +28,7 @@
         <a class="nav-link active" href="ListActivity.php">กิจกรรมที่รอการอนุมัติ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="LA2.php">กิจกรรมที่อนุมัติแล้ว</a>
+        <a class="nav-link "  href="<?=base_url("Welcome/LA2") ?>">กิจกรรมที่อนุมัติแล้ว</a>
       </li>
       
     </ul>
@@ -48,12 +48,13 @@
                         <img src="../images/AC1.png" class="rounded" width="300px">
                     </div> 
                         <p class="card-text">วันเสาร์ 14 ก.ย. 2562 เวลา 09:00 – 19:00 น.</p>
-                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
+                            <!-- <button  class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/approve") ?>">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button> -->
+                            <a class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/approve") ?>">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</a>
                     </div>
                     <div class="card-footer text-muted">        
                     </div>
             </div>
-
+            <br>
             <div class="card text-center">
                 <div class="card-header">
                     <h3>กิจกรรมที่ 2</h3>
@@ -69,7 +70,7 @@
                     <div class="card-footer text-muted">        
                     </div>
             </div>
-
+            <br>
             <div class="card text-center">
                 <div class="card-header">
                 <h3>กิจกรรมที่ 3 </h3>
@@ -98,7 +99,8 @@
 
 
 
-
+<br>
+<br>
 
 </body>
 </html>

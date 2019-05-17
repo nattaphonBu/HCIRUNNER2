@@ -62,7 +62,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header');
+		$this->load->view('template/header_admin');
 		$this->load->view('AdminHome/AdminHome.php');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -129,7 +129,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header_user');
+		$this->load->view('template/header_admin');
 		$this->load->view('approve/approve');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -159,7 +159,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header_user');
+		$this->load->view('template/header_admin');
 		$this->load->view('approvePayment/approvePayment');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -168,7 +168,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header');
+		$this->load->view('template/header_admin');
 		$this->load->view('payment/payment');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');

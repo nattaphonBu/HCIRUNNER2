@@ -125,11 +125,11 @@
                 <input type="text" class="form-control" placeholder="479.00" id="name" name="name" disabled > 
                 
               </div>
-                </div>
+                </div><br>
                 <div class="form-group">
               <img src="../images/payment.jpg" class="img-rounded" alt="Cinque Terre" width="300" height="500">
             </div>   
-              
+            <br>
               
             <div class="form-group">
                   <button  class="btn btn-success py-3 px-5" onClick="myFunction()">อนุมัติ</button>&nbsp;&nbsp;
@@ -144,7 +144,7 @@
           </div>
         </div>
       </div>
-      
+      <br><br>
     </section>
 
  
