@@ -24,10 +24,12 @@
     <a class="dropdown-item" href="<?=base_url("Welcome/report") ?>">ประวัตการเข้าร่วม</a>
     <a class="dropdown-item" href="<?=base_url("Welcome/createActivity") ?>">สร้างกิจกรรม</a>
   </div>
+  
 </div>
+<li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-danger "><span>ลงชื่ออก</span></a></li>&nbsp;&nbsp;
             <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-info "><span>สมัครสมาชิก</span></a></li>
             <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-info "><span>ลงชื่อเข้าใช้</span></a></li>&nbsp;&nbsp;
-            <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-danger "><span>ลงชื่ออก</span></a></li>&nbsp;&nbsp;
+            
       </ul>
 	    </div>
 	  </nav>
