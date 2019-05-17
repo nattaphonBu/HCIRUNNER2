@@ -17,13 +17,30 @@
 </style>
 <body>
 
+
 <div class="container">
     <div class="row">
         <div class="col-sm">
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">กิจกรรมที่รอการอนุมัติ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Link</a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="card-body">
+
+
+  
 
             <div class="card text-center">
                 <div class="card-header">
-                    กิจกรรมที่ 1
+                <h3>กิจกรรมที่ 1 </h3>
                 </div>
                     <div class="card-body">
                         <h5 class="card-title">Bangkok Airways ChiangRai Half Marathon 2019</h5>
@@ -37,13 +54,47 @@
                     </div>
             </div>
 
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>กิจกรรมที่ 2</h3>
+                </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bangkok Airways Phuket Half Marathon 2019 </h5>
+                    <div class="text-center">
+                        <img src="../images/AC3.png" class="rounded" width="300px">
+                    </div> 
+                        <p class="card-text">วันอาทิตย์ 4 สิงหาคม 2562  เวลา 04:00 – 08:00 น.</p>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">จัดการกิจกรรม</button>
+                    </div>
+                    <div class="card-footer text-muted">        
+                    </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="card-header">
+                <h3>กิจกรรมที่ 3 </h3>
+                </div>
+                    <div class="card-body">
+                        <h5 class="card-title">“ศิครินทร์ หาดใหญ่ ฮาล์ฟ มาราธอน 2019” 
+                                เดิน-วิ่งเพื่อเด็กโรคหัวใจพิการแต่กำเนิด  </h5>
+                    <div class="text-center">
+                        <img src="../images/AC2.JPG" class="rounded" width="300px">
+                    </div> 
+                        <p class="card-text">วันอาทิตย์ที่ 18 สิงหาคม 2562 เวลา 09:00 – 19:00 น.</p>
+                            <button type="button" class="btn btn-secondary" style="width: 300px">จัดการกิจกรรม</button>
+                    </div>
+                    <div class="card-footer text-muted">        
+                    </div>
+            </div>
 
 
-        </div>
+
+  
+  </div>
+</div>
+</div>
     </div>
 </div>
-
-
 
 
 

@@ -22,10 +22,8 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-   <style>
-  
-   }
-   </style>
+  <style>
+  </style>
   <body>
 	  
    
@@ -238,13 +236,6 @@
         </div>
       </div>
     </section>
-
-  
-
-   
-		
-
-
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>

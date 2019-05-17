@@ -5,11 +5,11 @@
 <meta charset="utf8">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700 ,900" rel="stylesheet">
 <style>
     body{
         font-family: Rubik;
@@ -34,7 +34,7 @@
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demo"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <a class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/payment") ?>">ชำระเงิน</a>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ Championjam @แม่กำปองเทรล2019 </h4></p>
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demos"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><button type="button" class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <p><button  class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
