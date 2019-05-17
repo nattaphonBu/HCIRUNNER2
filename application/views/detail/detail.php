@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
 <style>
 .mySlides {display:none;}
-.w3-display-container, #ct1, #ct2{
+.w3-display-container,#ct1,#ct2{
   border: -1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
