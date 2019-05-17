@@ -83,12 +83,12 @@
               </div>
               <div class="form-group">
                     <div align='left'><label text>เบอร์โทรศัพท์ :</label></div>
-                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="ex.08-0 "  >
+                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder="ex.08-0"  id="Telephone" name="Telephone"  >
                 
               </div>
               <div class="form-group">
                 <div align='left'><label text>อีเมล์ :</label></div>
-                <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="ex.HCI@mail.com"  >
+                <input type="email" class="form-control" placeholder="ex.HCI@mail.com" id="email" name="email"  >
                 
               </div>
               <div class="form-group">

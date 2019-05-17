@@ -85,7 +85,7 @@
                     <a class="btn btn-secondary py-3 px-5" href="<?=base_url("Welcome/editprofile_screen") ?>">แก้ไขข้อมูลผู้ใช้</a>
                     </div>
                     <div class="col">
-                <button type="insert"  class="btn btn-info py-3 px-5">ประวัติการเข้าร่วม</button>
+                    <a class="btn btn-info py-3 px-5" href="<?=base_url("Welcome/report") ?>">ประวัติการเข้าร่วม</a>
                     </div>
                 </div>
             </div>

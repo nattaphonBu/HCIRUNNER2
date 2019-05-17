@@ -33,55 +33,7 @@
   </style>
   <body>
 	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand"  href="<?=base_url("Welcome") ?>"><span>RUN MY WAY.</span></a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> 
-	      </button>
-      
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-        
-	        <ul class="navbar-nav nav ml-auto">
-          
-            
-	          <!-- <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-primary " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp; -->
-	        </ul>
-        </div>
-        <ul class="navbar-nav nav ml-auto">
-        <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    จัดการบัญชีผู้ใช้
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="<?=base_url("Welcome/profile_screen") ?>">ข้อมูลผู้ใช้</a>
-    <a class="dropdown-item" href="<?=base_url("Welcome/report") ?>">ประวัตการเข้าร่วม</a>
-    <a class="dropdown-item" href="<?=base_url("Welcome/createActivity") ?>">สร้างกิจกรรม</a>
-  </div>
-</div>
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-info "><span>สมัครสมาชิก</span></a></li>
-            <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-info "><span>ลงชื่อเข้าใช้</span></a></li>&nbsp;&nbsp;
-      </ul>
-	    </div>
-	  </nav>
-    
-    <section class="hero-wrap js-fullheight" style="background-image: url('images/run.jpg');" data-section="home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-          	<!-- <p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-							<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
-    						<span class="ion-ios-play play mr-2"></span>
-    						<span class="watch">Watch Video</span>
-    					</a> -->
-						</p>
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Nobody is perfect but if you can run fast, you are pretty close</h1>
-            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A short run is better than no run</p>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 		
 		
 
@@ -99,7 +51,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/chan.jpg');">
+              <a href="<?=base_url("Welcome/detail") ?>" class="block-20" style="background-image: url('../images/chan.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -120,10 +72,15 @@
                     <p>" ส่งเสริมการวิ่งออกกำลังกายเพื่อสุขภาพในสถานที่อากาศดี ทิวทัศน์งดงาม " </p>
             
                 <div class="d-flex align-items-center mt-4 meta">
+<<<<<<< HEAD
                     <p><button class="btn btn-secondary join" onClick="myFunction()" >เข้าร่วม</button></p>
                     <p class="mb-000"><a href="#" class="btn btn-outline-success read" >Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+=======
+                    <p><button class="btn btn-secondary" onClick="myFunction()">Join </button></p>
+                    <p class="mb-000"><a href="<?=base_url("Welcome/detail") ?>" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+>>>>>>> 8dcf642c3124a5a36470f92038703b2f0cd3fe40
 	                <p class="mb-0000">
-                    <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="#" class="meta-chat"> 132</a>	
+                    <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="<?=base_url("Welcome/report") ?>" class="meta-chat"> 132</a>	
 	                </p>
                 </div>
               </div>
@@ -133,7 +90,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph2.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('../images/ph2.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -165,7 +122,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
                     <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph3.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('../images/ph3.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -197,7 +154,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                 <span class="status2"> &nbsp;ปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph4.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('../images/ph4.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -228,7 +185,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
                 <span class="status"> &nbsp;เปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph5.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('../images/ph5.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -259,7 +216,7 @@
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
                 <span class="status2"> &nbsp;ปิดรับสมัคร  &nbsp;</span>
-              <a href="single.html" class="block-20" style="background-image: url('images/ph6-1.jpg');">
+              <a href="single.html" class="block-20" style="background-image: url('../images/ph6-1.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -295,23 +252,6 @@
 
    
 		
-
-    <footer class="ftco-footer ftco-section">
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><a href="https://www.facebook.com/%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B9%8C-274248215956704/"><img src="https://img.icons8.com/color/48/000000/facebook.png"> : วิศวกรรมซอฟต์แวร์ ม.วลัยลักษณ์</a></p>
-            <p>มหาวิทยาลัยวลัยลักษณ์ 222 ตำบลไทยบุรี อำเภอท่าศาลา จังหวัดนครศรีธรรมราช 80161. โทร.0-7567-3000 แฟกซ์. 0-7567-3708</p>
-            <p>©Copyright 2019 Group.1_SWE60-232&SWE-342 All Rights Reserved 0.1234</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-  
-
-  <!-- loader -->
-  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
 
 
   <script src="js/jquery.min.js"></script>

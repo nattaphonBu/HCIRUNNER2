@@ -6,35 +6,17 @@ $("#insert").validate({
             name: {
                 required: true
             },
-            Telephone: {
-                required: true,
-          },
-          email: {
-                required: true,
-          },
-          password: {
-                required: true,
-          },
-          repassword: {
+            password: {
                 required: true,
           }
         },
         messages: {
             name: {
-                required: "กรอกชื่อบัญชีผู้ใช้"
-            },
-            Telephone: {
-                required: "กรอกเบอร์โทรศัพท์",
-            },
-            email: {
-                required: "กรอกอีเมล์",
+                required: "กรอกบัญชีผู้ใช้"
             },
             password: {
                     required: "กรอกรหัสผ่าน",
             },
-            repassword: {
-                    required: "กรอกรหัสผ่าน",
-            }
         },
     });
     $("#insert").submit(function(){

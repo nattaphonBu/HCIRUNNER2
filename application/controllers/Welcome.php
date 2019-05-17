@@ -20,7 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->view('template/head');
+		$this->load->view('template/header_user');
 		$this->load->view('home/home');
+		$this->load->view('template/foot');
+		$this->load->view('template/footer');
+		
 	}
 	public function index1()
 	{
@@ -40,7 +45,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header');
+		$this->load->view('template/header_user');
 		$this->load->view('detail/detail');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -75,7 +80,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header');
+		$this->load->view('template/header_user');
 		$this->load->view('ReportJoin/report.php');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -84,7 +89,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header');
+		$this->load->view('template/header_user');
 		$this->load->view('createActivity/createActivity');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -96,6 +101,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/head');
 		// $this->load->view('template/header');
 		$this->load->view('login/login');
+		$this->load->view('login/script');
 		// $this->load->view('template/foot');
 		$this->load->view('template/footer');
 	}
