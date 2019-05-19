@@ -89,7 +89,7 @@
               <br>
               <div class="form-group">
                 
-                <button type="insert"  class="btn btn-secondary py-3 px-5">Sing in</button>
+                <button onClick="myFunction1()" class="btn btn-secondary py-3 px-5">Sing in</button>
               </div>
             </form>
           
@@ -117,3 +117,24 @@
         </div>
       </div>
     </footer>
+
+    <script>
+    function myFunction1() {
+      var txt;
+      if (confirm("Confirm to Join!! ")) {
+        alert("Join Complete");
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
+  function myFunction() {
+        var txt;
+        if (confirm("คุณต้องการเข้าร่วมกิจกรรมนี้หรือไม่")) {
+          alert("คุณได้เข้าร่วม");
+        } else {
+          alert("ยกเลิกการเข้าร่วม");
+        }
+        // document.getElementById("demo").innerHTML = txt;
+  }
+</script>

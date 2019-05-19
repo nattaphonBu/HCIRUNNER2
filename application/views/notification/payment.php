@@ -89,7 +89,7 @@
         <!-- <p>Join with us </p> -->
           <div class="col-sm-10 order-md-last d-flex">
           
-            <form id="insert" class="bg-light p-4 contact-form">
+            <div class="bg-light p-4 contact-form">
             <div class="form-group" >
               <img src="../images/pay.jpg" alt="" width="800">
             </div>
@@ -117,31 +117,33 @@
               <div class="col-6">
                     <div align='left'><label text>จำนวนที่โอน :</label></div>
                 <input type="number" step="0.01" class="form-control" placeholder="" id="name" name="name"  > 
+                </div>
+                <div class="col-12">
+                <div class="form-group files" >
+                <label>Upload Your File </label>
+                <input type="file" class="form-control" multiple="">
+                </div>
+            </div>
+              
+            <div class="col-12">
+              <div class="form-group">
+                
+                <button onClick="myFunction()" class="btn btn-success py-3 px-5">ส่ง</button>
+              </div>
+              </div>
                 
               </div>
               </div>
               </div>
               <!-- <div class="row">
                 <div class="col-8"> -->
-            <div class="form-group files" >
-                <label>Upload Your File </label>
-                <input type="file" class="form-control" multiple="">
-            </div>
-              
-              
-              <div class="form-group">
-                
-                <button type="insert"  class="btn btn-success py-3 px-5">ส่ง</button>
+            
               </div>
-              <!-- </div>
-              </div> -->
-            </form>
+            <!-- </form> -->
           
           </div>
         </center>
-          <div class="col-md-1 d-flex">
-          	<div id="map" class="bg-white"></div>
-          </div>
+        
         </div>
       </div>
       
@@ -164,4 +166,27 @@
             modal: true,
             footer: true
         });
+</script>
+
+<script>
+    function myFunction() {
+      var txt;
+      if (confirm("คุณต้องการส่งใช่หรือไม่")) {
+        alert("คุได้ส่งข้อมูลไปแล้ว");
+        // window.location.replace("index");
+        document.location.replace('report');
+      } else {
+        alert("ไม่ได้เข้าร่วมกิจกรรม");
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
+  function myFunction1() {
+        var txt;
+        if (confirm("Are you sure to unjoin?")) {
+          alert("UnJoin Complete");
+        } else {
+          txt = "You pressed Cancel!";
+        }
+        // document.getElementById("demo").innerHTML = txt;
+  }
 </script>

@@ -42,7 +42,7 @@
         <!-- <p>Join with us </p> -->
           <div class="col-sm-10 order-md-last d-flex">
               
-            <form id="insert" class="bg-light p-4 contact-form">
+            <div class="bg-light p-4 contact-form">
               <div class="form-group ">
                 <div class="row">
                     <div class="col">
@@ -85,19 +85,20 @@
                 <div class="row">
                     <div class="col">
                
-                <button onClick="myFunction()" class="btn btn-secondary py-3 px-5">แก้ไขข้อมูลผู้ใช้</button>
+                <button onClick="myFunction()" class="btn btn-secondary py-3 px-5">บันทึก</button>
+           
                     </div>
 
                 </div>
             </div>
-            </form>
+            
           
           </div>
         </center>
          
         </div>
       </div>
-     
+     </div>
     </section>
 
 
@@ -114,6 +115,8 @@
       var txt;
       if (confirm("ต้องการบันทึกข้อมูลใช่หรือไม่ ")) {
         alert("ระบบบันทึกข้อมูลสำเร็จ");
+        // window.location.replace("profile_screen");
+        document.location.replace('profile_screen');
         
        
       } else {
