@@ -71,7 +71,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header_user');
+		$this->load->view('template/header_admin');
 		$this->load->view('ListActivity/ListActivity.php');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');
@@ -80,7 +80,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('home/home');
 		$this->load->view('template/head');
-		$this->load->view('template/header_user');
+		$this->load->view('template/header_admin');
 		$this->load->view('ListActivity/LA2.php');
 		$this->load->view('template/foot');
 		$this->load->view('template/footer');

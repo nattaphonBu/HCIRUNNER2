@@ -33,7 +33,7 @@
         <center>
             <p class="error1">สร้างกิจกรรม</p>
           <div class="col-sm-12 order-md-last d-flex">
-            <form id="insert" class="bg-light p-4 contact-form">
+            <div class="bg-light p-4 contact-form">
           <div class="row">
             <div class="col-6">
               <div align='left'><label text>ชื่อกิจกรรม : </label>
@@ -153,12 +153,16 @@
                     </tbody>
                   </table>
                 </div>
-                </div>
-                <br>
-                  <div class="form-group">
-                  <button type="insert"  class="btn btn-success py-3 px-5">บันทึก</button>
+                <div class="form-group">
+                  <button onClick="myFunction()"  class="btn btn-success py-3 px-5">บันทึก</button>
               </div>
-          </form><br><br>
+
+                </div>
+                
+                <br>
+                 
+          </div>
+          </div><br><br>
         </center>
       </div>
     </div>
@@ -245,3 +249,19 @@ $(function() {
 });
 
 </script>
+<script>
+    function myFunction() {
+      var txt;
+      if (confirm("ต้องการบันทึกข้อมูลงานวิ่งใช่หรือไม่ ")) {
+        alert("ระบบบันทึกข้อมูลสำเร็จ");
+        // window.location.replace("profile_screen");
+        document.location.replace('profile_screen');
+        
+       
+      } else {
+         alert("ระบบบันทึกข้อมูลไม่สำเร็จ");
+      }
+      // document.getElementById("demo").innerHTML = txt;
+    }
+
+    </script>
