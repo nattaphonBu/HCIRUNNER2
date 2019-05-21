@@ -19,12 +19,27 @@
         
     }
 </style>
+<style>
+        p.error1{
+          font-size: 52px;
+          display: block;
+          margin-bottom: 5px;
+          text-transform: uppercase;
+          color: #2e9e5b;
+          letter-spacing: 2px;
+        }
+        label.error{
+          color: red !important;
+        }
+        /* body { padding: 1rem; } */
+        
+    </style>
 <body>
     
 
     <form>
     <div class="container" id="bgbody">
-    <p><h1 class="cen">การจัดการงานวิ่ง</h1></p>
+    <center><p class="error1 ">แก้ไขข้อมูลผู้ใช้</p></center>
         <div class="row">
             <div class="col-sm-6 cen" > 
             <br><br><br><br>

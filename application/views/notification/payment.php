@@ -116,11 +116,11 @@
               </div>
               <div class="col-6">
                     <div align='left'><label text>จำนวนที่โอน :</label></div>
-                <input type="number" step="0.01" class="form-control" placeholder="" id="name" name="name"  > 
+                <input type="number" step="0.01" class="form-control" placeholder="" id="name" name="name"  min=1 > 
                 </div>
                 <div class="col-12">
                 <div class="form-group files" >
-                <label>Upload Your File </label>
+                <label>อัพโหลดไฟล์รูปภาพ </label>
                 <input type="file" class="form-control" multiple="">
                 </div>
             </div>
@@ -129,6 +129,7 @@
               <div class="form-group">
                 
                 <button onClick="myFunction()" class="btn btn-success py-3 px-5">ส่ง</button>
+                <!-- <button onClick="myFunction()" class="btn btn-warning py-3 px-5">ล้างข้อมูล</button> -->
               </div>
               </div>
                 

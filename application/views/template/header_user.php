@@ -27,8 +27,8 @@
   
 </div>
 <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-danger "><span>ลงชื่อออก</span></a></li>&nbsp;&nbsp;
-            <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-success "><span>สมัครสมาชิก</span></a></li>
-            <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-info "><span>ลงชื่อเข้าใช้</span></a></li>&nbsp;&nbsp;
+            <!-- <li class="nav-item"><a href="<?=base_url("Welcome/register") ?>" class="btn btn-success "><span>สมัครสมาชิก</span></a></li> -->
+            <!-- <li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-info "><span>ลงชื่อเข้าใช้</span></a></li>&nbsp;&nbsp; -->
             
       </ul>
 	    </div>
