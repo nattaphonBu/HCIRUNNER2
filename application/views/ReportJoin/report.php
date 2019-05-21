@@ -34,7 +34,7 @@
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demo"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <a class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/payment") ?>">ชำระเงิน</a>
+                <p><a class="btn btn-secondary" style="width: 300px" href="<?=base_url("Welcome/payment") ?>">ชำระเงิน</a></P>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
@@ -65,15 +65,15 @@
         <div class="card-body">
         <div class="row">
             <div class="col-sm-4"> 
-                <p class="card-text"><img src="../images/ph2.jpg" width="200" alt=""><h4 class="card-title">
+                <p class="card-text"><img src="../images/banner4.jpg" width="345" alt=""><h4 class="card-title">
 
-Championjam @แม่กำปองเทรล2019 </h4></p>
+Runforest 2019 </h4></p>
             </div>
             <div class="col-sm-8">
                 <p ><h3>ระยะเวลาในการชำระเงิน</h3></p><p id="demos"></p>
                 <p>ถึง</p>
                 <p>Su June 16 2019 16:00:00 GMT+0700 (Indochina Time)</p>
-                <p><button  class="btn btn-secondary" style="width: 300px">ชำระเงิน</button></p>
+                <p><button  class="btn btn-success" style="width: 300px" disabled>ชำระเงิน</button></p>
                 <p>**หมายเหตุ หากไม่ชำระเงินภายในวันที่กำหนดทางเจ้าหน้าที่จะทำการยกเลิกการเข้าร่วมกิจกรรมดังกล่าวอัตโนมัติ</p>
             </div>
         </div>
