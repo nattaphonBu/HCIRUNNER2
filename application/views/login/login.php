@@ -83,7 +83,7 @@
               </div>
               <div class="form-group">
                     <div align='left'><label text>รหัสผ่าน :</label></div>
-                <input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="password" name="password"  >
+                <input type="password"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" minlength="6" class="form-control" placeholder=""  id="password" name="password"  >
                 
               </div>     
               <br>
@@ -121,11 +121,12 @@
     <script>
     function myFunction1() {
       var txt;
-      if (confirm("Confirm to Join!! ")) {
-        alert("Join Complete");
-      } else {
-        txt = "You pressed Cancel!";
-      }
+      // if (confirm("Confirm to Join!! ")) {
+      //   alert("ลงชื่อเข้าใช้สำเร็จ");
+        document.location.replace('index');
+      // } else {
+        // txt = "You pressed Cancel!";
+      // }
       // document.getElementById("demo").innerHTML = txt;
 }
   function myFunction() {

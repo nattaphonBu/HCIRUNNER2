@@ -27,13 +27,6 @@ class Welcome extends CI_Controller {
 		$this->load->view('template/footer');
 		
 	}
-	public function index1()
-	{
-		
-		// $this->load->view('template/head');
-		$this->load->view('index/index');
-		// $this->load->view('template/footer');
-	}
 	public function register()
 	{
 		$this->load->view('register/register');
