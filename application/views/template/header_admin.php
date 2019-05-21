@@ -26,7 +26,7 @@
   </div>
   
 </div>
-<li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-danger "><span>ลงชื่ออก</span></a></li>&nbsp;&nbsp;
+<li class="nav-item"><a href="<?=base_url("Welcome/login") ?>" class="btn btn-danger "><span>ลงชื่อออก</span></a></li>&nbsp;&nbsp;
             
             
       </ul>
