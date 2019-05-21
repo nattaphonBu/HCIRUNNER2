@@ -20,7 +20,7 @@
     จัดการแอดมิน
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="<?=base_url("Welcome/profile_screen") ?>">ตรวจสอบการชำระเงิน</a>
+    <a class="dropdown-item" href="<?=base_url("Welcome/approvePayment") ?>">ตรวจสอบการชำระเงิน</a>
     <a class="dropdown-item" href="<?=base_url("Welcome/paymentcheck") ?>">ตรวจสอบรายละเอียดกิจกรรม</a>
     <!-- <a class="dropdown-item" href="<?=base_url("Welcome/createActivity") ?>">สร้างกิจกรรม</a> -->
   </div>

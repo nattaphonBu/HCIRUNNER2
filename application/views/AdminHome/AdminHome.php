@@ -39,7 +39,7 @@
 
     <form>
     <div class="container" id="bgbody">
-    <center><p class="error1 ">แก้ไขข้อมูลผู้ใช้</p></center>
+    <center><p class="error1 ">เมนูของผู้ดูแลระบบ</p></center>
         <div class="row">
             <div class="col-sm-6 cen" > 
             <br><br><br><br>

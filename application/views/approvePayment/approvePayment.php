@@ -133,6 +133,7 @@
               
             <div class="form-group">
                   <button  class="btn btn-success py-3 px-5" onClick="myFunction()">อนุมัติ</button>&nbsp;&nbsp;
+                  <button  class="btn btn-danger py-3 px-5" onClick="myFunction1()">ไม่อนุมัติ</button>&nbsp;&nbsp;
               </div>    
               </div>
             </form>
@@ -161,7 +162,18 @@
 <script>
     function myFunction() {
       var alert;    
-      if (confirm("คุณต้องการอนุมัติกิจกรรมใช่หรือไม่ ")) {
+      if (confirm("คุณต้องการอนุมัติรายการนี้ใช่หรือไม่ ")) {
+        alert("ระบบทำการอนุมัติ");
+        window.location.replace("AdminHome");
+      } else {
+        alert("ยกเลิก")
+        
+      }
+      // document.getElementById("demo").innerHTML = txt;
+}
+function myFunction1() {
+      var alert;    
+      if (confirm("คุณไม่อนุมัติรายการนี้ใช่หรือไม่ ")) {
         alert("ระบบทำการอนุมัติ");
         window.location.replace("AdminHome");
       } else {
