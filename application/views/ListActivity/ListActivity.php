@@ -71,22 +71,7 @@
                     </div>
             </div>
             <br>
-            <div class="card text-center">
-                <div class="card-header">
-                <h3>กิจกรรมที่ 3 </h3>
-                </div>
-                    <div class="card-body">
-                        <h5 class="card-title">“ศิครินทร์ หาดใหญ่ ฮาล์ฟ มาราธอน 2019” 
-                                เดิน-วิ่งเพื่อเด็กโรคหัวใจพิการแต่กำเนิด  </h5>
-                    <div class="text-center">
-                        <img src="../images/AC2.JPG" class="rounded" width="300px">
-                    </div> 
-                        <p class="card-text">วันอาทิตย์ที่ 18 สิงหาคม 2562 เวลา 09:00 – 19:00 น.</p>
-                            <button type="button" class="btn btn-secondary" style="width: 300px">ดูรายละเอียดกิจกรรมเพื่ออนุมัติ</button>
-                    </div>
-                    <div class="card-footer text-muted">        
-                    </div>
-            </div>
+            
 
 
 
