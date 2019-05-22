@@ -73,7 +73,7 @@
             
                 <div class="d-flex align-items-center mt-4 meta">
                     <p><button class="btn btn-secondary cen" onClick="myFunction()">เข้าร่วม </button></p>
-                    <p class="mb-000"><a href="<?=base_url("Welcome/detail") ?>" class="btn btn-primary cen1">อ่านเพิ่มเติม <span class="ion-ios-arrow-round-forward"></span></a></p>
+                    <p class="mb-000"><a href="<?=base_url("Welcome/detail1") ?>" class="btn btn-primary cen1">อ่านเพิ่มเติม <span class="ion-ios-arrow-round-forward"></span></a></p>
 	                <p class="mb-0000">
                     <img src="https://img.icons8.com/metro/26/000000/administrator-male.png"> <a href="<?=base_url("Welcome/report") ?>" class="meta-chat"> 132</a>	
 	                </p>
