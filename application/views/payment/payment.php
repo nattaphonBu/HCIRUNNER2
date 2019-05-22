@@ -49,7 +49,7 @@ June
 จันทบุรี ซีนิค ฮาล์ฟมาราธอน 2019</td>
                 <td>Micro Marathon</td>
                 <td>600</td>
-                <td>1 ไฟล์</td>
+                <td><a href="<?=base_url("Welcome/approvePayment") ?>">1 ไฟล์</a></td>
                 
                 </tr>
                 <tr>
