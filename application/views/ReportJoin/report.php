@@ -15,12 +15,27 @@
         font-family: Rubik;
     }
 </style>
+<style>
+        p.error1{
+          font-size: 52px;
+          display: block;
+          margin-bottom: 5px;
+          text-transform: uppercase;
+          color: #2e9e5b;
+          letter-spacing: 2px;
+        }
+        label.error{
+          color: red !important;
+        }
+        
+    </style>
 <body>
     
 
     <form>
     <div class="container" id="bgbody">
-        <p><h1 >ประวัติการเข้าร่วม</h1></p>
+    <center><p class="error1 ">ประวัติการเข้าร่วม</p></center>
+        <!-- <p><h1 >ประวัติการเข้าร่วม</h1></p>ห -->
         <div class="card text-center">
         <div class="card-header">
         <h3>กิจกรรมที่ 1</h3>

@@ -21,7 +21,7 @@
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="<?=base_url("Welcome/profile_screen") ?>">ข้อมูลผู้ใช้</a>
-    <a class="dropdown-item" href="<?=base_url("Welcome/report") ?>">ประวัตการเข้าร่วม</a>
+    <a class="dropdown-item" href="<?=base_url("Welcome/report") ?>">ประวัติการเข้าร่วม</a>
     <a class="dropdown-item" href="<?=base_url("Welcome/createActivity") ?>">สร้างกิจกรรม</a>
   </div>
   

@@ -1,7 +1,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand"  href="<?=base_url("Welcome/index") ?>"><span>RUN MY WAY.</span></a>
+	      <a class="navbar-brand"  href="<?=base_url("Welcome/adminHome") ?>"><span>RUN MY WAY.</span></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> 
 	      </button>
@@ -11,7 +11,7 @@
 	        <ul class="navbar-nav nav ml-auto">
           
             
-	          <!-- <li class="nav-item"><a href="<?=base_url("Welcome") ?>" class="btn btn-primary " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp; -->
+	          <!-- <li class="nav-item"><a href="<?=base_url("Welcome/adminHome") ?>" class="btn btn-primary " data-nav-section="home"><span>Home</span></a></li>&nbsp;&nbsp; -->
 	        </ul>
         </div>
         <ul class="navbar-nav nav ml-auto">
